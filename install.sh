@@ -14,5 +14,5 @@ mv onbot offbot qrcode /bin
 wget https://github.com/endblack/WaBot-VendasSSH/raw/main/megahbot.zip -O /etc/megahbot.zip
 unzip /etc/megahbot.zip
 echo
-echo "Tudo certo, digite o comando qrcode para fazer login no whatsapp
+echo "Tudo certo, digite o comando qrcode para fazer login no whatsapp"
 echo
