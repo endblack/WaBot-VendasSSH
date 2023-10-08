@@ -1,0 +1,7 @@
+#!/bin/bash
+
+screen -r -S megah -X quit
+screen -dmS "megah" sh /etc/megahbot/start.sh
+echo
+echo "Bot Online, tenha certeza de ter lido o Qrcode, caso contrário o bot não vai funcionar"
+echo
