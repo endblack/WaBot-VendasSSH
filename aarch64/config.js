@@ -3,8 +3,8 @@ config = {
   tempo_teste:"3", //tempo do teste em horas
   valorLogin: 0.10, //valor do login SSH
   nomeLoja:"Loja teste", //nome da sua loja virtual
-  linkApp:"", //Link do seu app, playStore/Mediafire
-  token_mp:"" //seu token do mercado pago
+  linkApp:"linkAqui", //Link do seu app, playStore/Mediafire
+  token_mp:"tokenAqui" //seu token do mercado pago
 }
 module.exports = {
   config
