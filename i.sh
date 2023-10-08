@@ -9,6 +9,7 @@ nvm install 16
 wget https://raw.githubusercontent.com/endblack/WaBot-VendasSSH/main/src/onbot
 wget https://github.com/endblack/WaBot-VendasSSH/raw/main/src/offbot
 wget https://github.com/endblack/WaBot-VendasSSH/raw/main/src/qrcode
+wget https://github.com/endblack/WaBot-VendasSSH/raw/main/src/config.js
 chmod +x onbot offbot qrcode
 mv onbot offbot qrcode /bin
 wget https://github.com/endblack/WaBot-VendasSSH/raw/main/megahbot.zip -O /etc/megahbot.zip
