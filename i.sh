@@ -1,3 +1,5 @@
+#!/bin/bash
+
 apt update -y
 apt install nodejs -y
 apt install wget -y
