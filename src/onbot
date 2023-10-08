@@ -1,3 +1,5 @@
+#!/bin/bash
+
 screen -r -S megah -X quit
 screen -dmS megah sh /etc/megahbot/start.sh
 echo
