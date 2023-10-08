@@ -1,6 +1,0 @@
-#!/bin/bash
-
-screen -r -S megah -X quit
-echo
-echo "Bot off"
-echo
