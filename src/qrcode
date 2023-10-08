@@ -1,9 +1,0 @@
-#!/bin/bash
-
-echo
-echo "Leia o Qrcode abaixo e logo depois digite o comando onbot"
-echo
-echo "CTRL+C Para sair"
-echo
-sleep 2
-node /etc/megahbot/index.js
