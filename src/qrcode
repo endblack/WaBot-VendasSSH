@@ -4,4 +4,4 @@ echo
 echo "CTRL+C Para sair"
 echo
 sleep 2
-sh /etc/megahbot/start.sh
+node /etc/megahbot/index.js
