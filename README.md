@@ -1,5 +1,5 @@
 # WaBot-VendasSSH
-Feito por: https://t.me/MegahBox
+🔥Feito por: https://t.me/MegahBox
 
 Testado nos ubuntus 18 e 20
 ## • 🛠️Instalação
