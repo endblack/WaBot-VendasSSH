@@ -1,0 +1,2 @@
+screen -r -S megah -X quit
+echo "Bot off"
