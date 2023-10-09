@@ -23,3 +23,11 @@ Após terminar a instalação, digite o comando `qrcode` e leia o Qrcode que ir�
 
 ### • 📌Obs
 - Use na mesma vps do SSH
+
+
+### 🔎Outros
+- Como instalar e configurar:
+https://youtu.be/0SiM7FX76xg?si=fAPo6nTQDWnBRBBK
+
+- Como obter o token do mercado pago:
+https://youtu.be/nA4gP6NcF_o?si=f0jfeelvjpJ87FXS
