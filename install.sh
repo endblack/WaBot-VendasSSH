@@ -1,5 +1,10 @@
 #!/bin/bash
 
+
+[[ "$(whoami)" != "root" ]] && {
+    echo "Instale com usuario root!"
+    exit 0
+}
 apt update -y
 echo "Instalando bot, aguarde..."
 apt install nodejs -y > /dev/null 2>&1
