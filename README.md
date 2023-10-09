@@ -5,6 +5,9 @@ https://t.me/MegahBox
 👥Canal do telegram:
 https://t.me/cursov2ray
 
+🤖Bot de teste:
+https://wa.me/559191288339
+
 Testado nos ubuntus 18 e 20
 ## • 🛠️Instalação
 ### • Parte 1
