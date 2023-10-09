@@ -2,11 +2,15 @@
 
 
 [[ "$(whoami)" != "root" ]] && {
+    echo
     echo "Instale com usuario root!"
+    echo
     exit 0
 }
 apt update -y
+echo
 echo "Instalando bot, aguarde..."
+echo
 apt install nodejs -y > /dev/null 2>&1
 apt install unzip -y > /dev/null 2>&1
 apt install screen -y > /dev/null 2>&1
@@ -21,5 +25,5 @@ wget https://github.com/endblack/WaBot-VendasSSH/raw/main/mult/megahbot.zip -O /
 unzip /etc/megahbot.zip
 mv megahbot /etc
 echo
-echo "Tudo certo, digite o comando qrcode para fazer login no whatsapp, não esqueça de editar seus dados no arquivo config.js"
+echo "Instalação terminada! Não esqueça de editar seus dados no arquivo config.js"
 echo
