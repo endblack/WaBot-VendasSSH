@@ -25,7 +25,7 @@ Após terminar a instalação, digite o comando `qrcode` e leia o Qrcode que ir�
 - Use na mesma vps do SSH
 
 
-### 🔎Outros
+### 📝Complemento
 - Como instalar e configurar:
 https://youtu.be/0SiM7FX76xg?si=fAPo6nTQDWnBRBBK
 
