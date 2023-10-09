@@ -9,7 +9,7 @@ Use o comando abaixo para instalar o bot e suas dependências⤵️
 apt install curl -y; bash <(curl https://raw.githubusercontent.com/endblack/WaBot-VendasSSH/main/install.sh)
 ```
 ### • Parte 2
-Use o comando abaixo para mudar a versão do nodejs
+Use o comando abaixo para mudar a versão do nodejs⤵️
 ```
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 ```
