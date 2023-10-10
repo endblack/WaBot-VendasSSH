@@ -1,5 +1,6 @@
 #!/bin/bash
 
+screen -r -S megah -X quit
 echo
 echo "Leia o Qrcode abaixo e logo depois digite o comando onbot"
 echo
