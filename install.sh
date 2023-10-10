@@ -6,7 +6,7 @@
     echo
     exit 0
 }
-[[ -e "/etc/megahbot/index.js"]] && {
+[[ -e /etc/megahbot/index.js ]] && {
 echo
 echo "Atualizando bot, aguarde..."
 echo
