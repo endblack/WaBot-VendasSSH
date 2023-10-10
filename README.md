@@ -11,7 +11,7 @@ https://wa.me/559191288339
 Testado nos ubuntus 18 e 20
 ## • 🛠️Instalação
 ### • Parte 1
-Use o comando abaixo para instalar o bot e suas dependências⤵️
+Use o comando abaixo para instalar/atualizar o bot e suas dependências⤵️
 ```
 sudo apt install curl -y; bash <(curl https://raw.githubusercontent.com/endblack/WaBot-VendasSSH/main/install.sh)
 ```
