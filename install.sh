@@ -1,11 +1,27 @@
 #!/bin/bash
 
-
 [[ "$(whoami)" != "root" ]] && {
     echo
     echo "Instale com usuario root!"
     echo
     exit 0
+}
+[[ -e "/etc/megahbot"]] && {
+echo
+echo "Atualizando bot, aguarde..."
+echo
+wget https://github.com/endblack/WaBot-VendasSSH/raw/main/mult/index.js > /dev/null 2>&1
+wget https://github.com/endblack/WaBot-VendasSSH/raw/main/mult/veri.js > /dev/null 2>&1
+wget https://github.com/endblack/WaBot-VendasSSH/raw/main/mult/gerar.js > /dev/null 2>&1
+wget https://github.com/endblack/WaBot-VendasSSH/raw/main/mult/qrcode > /dev/null 2>&1
+chmod +x qrcode
+mv qrcode /bin
+mv index.js /etc/megahbot
+mv veri.js gerar.js /etc/megahbot/src
+echo
+echo "Atualização terminada! digite onbot para rodar o novo programa"
+echo
+exit 0
 }
 apt update -y
 echo
