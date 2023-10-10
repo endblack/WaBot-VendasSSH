@@ -6,9 +6,7 @@
     echo
     exit 0
 }
-veri_dir
-function veri_dir() {
-[[ -e "/etc/megahbot"]] && {
+[[ -e "/etc/megahbot/index.js"]] && {
 echo
 echo "Atualizando bot, aguarde..."
 echo
@@ -24,7 +22,6 @@ echo
 echo "Atualização terminada! digite onbot para rodar o novo programa"
 echo
 exit 0
-}
 }
 apt update -y
 echo
